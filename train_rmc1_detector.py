@@ -26,6 +26,23 @@ python3 train_rmc1_detector.py \
   --imgsz 640 \
   --batch 16 \
   --device cpu
+
+
+Структура сырого датасета для этого скрипта
+rmc1_raw/
+├── images/
+│   ├── 0001.jpg
+│   ├── 0002.jpg
+│   └── ...
+└── labels/
+    ├── 0001.txt
+    ├── 0002.txt
+    └── ...
+
+Пример 0001.txt:
+0 0.512 0.481 0.221 0.198
+2 0.231 0.655 0.205 0.190
+
 """
 
 import argparse
