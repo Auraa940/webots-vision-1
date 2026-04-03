@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 
 """
+https://hub.viadev.su/Viacheslav/webots-vision-2
+
+
 rmc1_pick_place.py
 
 Пример запуска:
